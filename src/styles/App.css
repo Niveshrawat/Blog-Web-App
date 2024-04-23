@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Libre+Baskerville&family=Rubik&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+html::-webkit-scrollbar {
+    width: 0.9rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    border: 0.2rem solid #dafcfc;
+    background-color: #410179;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #dafcfc;
+
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #f9e7fe, #dafcfc);
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.open-left {
+    left: 0 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.loading-img {
+    display: block;
+    margin: 10rem auto;
+    width: 7rem;
+}
+
